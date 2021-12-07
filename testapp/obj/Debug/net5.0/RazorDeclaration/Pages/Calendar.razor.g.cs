@@ -82,35 +82,14 @@ using testapp.Shared;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 3 "C:\Users\Pjoter\source\repos\testapp\testapp\Pages\FetchData.razor"
-using testapp.Data;
-
-#line default
-#line hidden
-#nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/fetchdata")]
-    public partial class FetchData : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/absence/calendar")]
+    public partial class Calendar : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 39 "C:\Users\Pjoter\source\repos\testapp\testapp\Pages\FetchData.razor"
-       
-    private WeatherForecast[] forecasts;
-
-    protected override async Task OnInitializedAsync()
-    {
-        forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
-    }
-
-#line default
-#line hidden
-#nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private WeatherForecastService ForecastService { get; set; }
     }
 }
 #pragma warning restore 1591

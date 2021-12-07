@@ -1,0 +1,24 @@
+﻿@page "/absence/calendar"
+
+<AuthorizeView>
+    <Authorized>
+        <h3>Kiedy chcesz zgłosić nieobecność</h3>
+
+        <div class="">
+            <p>Od</p>
+            <input class="form-control" type="date" />
+            <p>Do</p>
+            <input class="form-control" type="date" />
+
+            <button class="btn btn-primary mt-2">Zatwierdź</button>
+
+        </div>
+    </Authorized>
+    <NotAuthorized>
+        <p>Nie jesteś zalogowany!</p>
+    </NotAuthorized>
+</AuthorizeView>
+
+    @code {
+
+    }

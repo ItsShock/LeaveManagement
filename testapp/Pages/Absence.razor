@@ -1,0 +1,33 @@
+﻿@page "/absence"
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<AuthorizeView>
+    <Authorized>
+        <h1 style="margin-bottom:30px">Jaki rodzaj nieobecności chcesz zgłosić</h1>
+
+
+        <div class="list-group">
+            <button type="button" class="list-group-item list-group-item-action">Urlop wypoczynkowy</button>
+            <button type="button" class="list-group-item list-group-item-action">Urlop na żądanie</button>
+            <button type="button" class="list-group-item list-group-item-action">Chorobowe na siebie/dziecko/członka rodziny</button>
+            <button type="button" class="list-group-item list-group-item-action">Wolne z tytułu opieki nad dzieckiem</button>
+            <button type="button" class="list-group-item list-group-item-action">Krwiodastwo</button>
+            <button type="button" class="list-group-item list-group-item-action">Urlop okolicznościowy</button>
+        </div>
+
+        <button class="btn btn-primary mt-2" @onclick="NavigateToCalendar">Zatwierdź</button>
+    </Authorized>
+    <NotAuthorized>
+        <p>Nie jesteś zalogowany!</p>
+    </NotAuthorized>
+</AuthorizeView>
+
+
+
+    @code {
+        private void NavigateToCalendar()
+        {
+            NavigationManager.NavigateTo("/absence/calendar");
+        }
+    }

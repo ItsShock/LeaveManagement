@@ -61,7 +61,6 @@ C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\testapp.MvcApplica
 C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\testapp.RazorComponent.input.cache
 C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
 C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\RazorDeclaration\Shared\LoginDisplay.razor.g.cs
 C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
@@ -75,7 +74,6 @@ C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\testapp.TagHelpers
 C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\testapp.RazorCoreGenerate.cache
 C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\Razor\App.razor.g.cs
 C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
-C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
 C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
 C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\Razor\Shared\LoginDisplay.razor.g.cs
 C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
@@ -104,3 +102,7 @@ C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\testapp.pdb
 C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\testapp.genruntimeconfig.cache
 C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\RazorDeclaration\Pages\Administration.razor.g.cs
 C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\Razor\Pages\Administration.razor.g.cs
+C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\RazorDeclaration\Pages\Absence.razor.g.cs
+C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\RazorDeclaration\Pages\Calendar.razor.g.cs
+C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\Razor\Pages\Absence.razor.g.cs
+C:\Users\Pjoter\source\repos\testapp\testapp\obj\Debug\net5.0\Razor\Pages\Calendar.razor.g.cs

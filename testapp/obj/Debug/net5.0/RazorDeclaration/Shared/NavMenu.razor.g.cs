@@ -90,7 +90,7 @@ using testapp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\Pjoter\source\repos\testapp\testapp\Shared\NavMenu.razor"
+#line 28 "C:\Users\Pjoter\source\repos\testapp\testapp\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
