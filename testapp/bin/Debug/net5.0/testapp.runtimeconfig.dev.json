@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Pjoter\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Pjoter\\.nuget\\packages"
+    ]
+  }
+}
